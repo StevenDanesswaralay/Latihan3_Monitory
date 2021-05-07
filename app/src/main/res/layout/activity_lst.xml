@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@color/gray"
+        android:paddingTop="50dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Beres! Sekarang Steven \n udah bisa ngecek \n penggunaan HP mu \n tiap hari buat bantu kamu \n ngatur waktu :)"
+            android:textColor="@color/black"
+            android:id="@+id/name"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/rubik_regular">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:background="@color/gray"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Oke"
+            android:id="@+id/end"
+            android:textAllCaps="false"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:background="@drawable/bt_border">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
